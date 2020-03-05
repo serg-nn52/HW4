@@ -633,7 +633,7 @@ header .buttons, footer .buttons {
 	}
 }
 @media(max-width:576px){
-	header h1, header h4, .container2 .block1 h2,  .container3 .block1 h2,{
+	header h1, header h4, .container2 .block1 h2,  .container3 .block1 h2 {
 		font-size: 33px;
 	}
 	.container2 img {
@@ -678,6 +678,13 @@ header .buttons, footer .buttons {
 	.pod {
 		width: 100%;
 		margin-top: 50px;
+	}
+
+	.ser {
+		margin-left: 10%;
+	}
+	.square {
+		top: 100px;
 	}
 }
 @media(max-width:370px) {
