@@ -295,7 +295,6 @@ footer {
 		width: 100%;
 		background-image: url(./images/footer_new.png);
 		background-size: cover;
-		max-height: 960px;
 		position: relative;
 		text-align: center;
 	
@@ -349,6 +348,7 @@ footer .logo1 {
 	height: 135px;
 	display: inline-block;
 	margin-right: 35px;
+	vertical-align: middle;
 }
 
 footer .pod p {
@@ -607,10 +607,27 @@ header .buttons, footer .buttons {
 		font-size: 30px;
 	}
 
-	footer .niz {
-		display: none;
+	footer .niz .logo {
+		width: 30%;
+		height: auto;
+		margin-top: 15px;
+	}
+	footer .niz p {
+		margin-top: 15px;
 	}
 
+	footer .niz a {
+		clear: both;
+		display: inline-block;
+		margin-top: 15px;
+	}
+	footer .niz {
+		height: 80px;
+	}
+
+	footer .niz i {
+		font-size: 16px;
+	}
 	.atlet .runner, .fon, .negr, .team .girl {
 		max-height: 300px;
 	}
@@ -710,5 +727,13 @@ header .buttons, footer .buttons {
 		width: 70px;
 		height: 70px;
 		margin: 0 auto 20px auto
+	}
+
+	footer .buttons {
+		margin-top: 15px;
+	}
+
+	footer .pod {
+		margin-top: 15px;
 	}
 }
