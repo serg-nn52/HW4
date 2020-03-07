@@ -704,7 +704,7 @@ header .buttons, footer .buttons {
 		top: 100px;
 	}
 }
-@media(max-width:370px) {
+@media(max-width:376px) {
 	footer .pod p {
 		font-size: 40px;
 	}
